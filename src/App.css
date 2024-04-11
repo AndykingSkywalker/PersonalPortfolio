@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes my-pic-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.picOfMe:hover {
+  animation: my-pic-spin infinite 4s;
+}
