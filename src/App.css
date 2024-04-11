@@ -49,3 +49,11 @@
 .picOfMe:hover {
   animation: my-pic-spin infinite 4s;
 }
+
+.imgEnlarger:hover {
+  transform: scale(2,2);
+}
+
+.usernameStuff:hover{
+  color: red;
+}

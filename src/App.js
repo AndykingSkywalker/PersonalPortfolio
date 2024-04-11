@@ -10,6 +10,8 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import AboutMe from './Components/About Me/AboutMe';
+import MessageBoard from './Components/Message Board/MessageBoard';
+import EditMessage from './Components/Message Board/EditMessage';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route element={<Home />} path="/" />
           <Route element={<AboutMe />} path="/AboutMe" />
+          <Route element={<MessageBoard />} path="/MessageBoard" />
+          <Route element={<EditMessage />} path="EditMessage/:id" />
         </Routes>
       </Router>
     </header>
