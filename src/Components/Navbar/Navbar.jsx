@@ -71,6 +71,11 @@ function Navbar() {
                 Message Board
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/PokeSearch">
+                Pokemon Generator
+              </a>
+            </li>
             <li className="nav-item"></li>
           </ul>
         </div>
