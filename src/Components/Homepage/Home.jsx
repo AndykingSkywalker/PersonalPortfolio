@@ -11,7 +11,7 @@ function Home() {
                 <CodingTimelapse/>
             </div>
             <div>
-                <img class="picOfMe" src={myPicture} alt="picture of me" width="500px" height="500px" style={{borderRadius: "50%", marginLeft: "37%"}}/>
+                <img className="picOfMe" src={myPicture} alt="picture of me" width="500px" height="500px" style={{borderRadius: "50%", marginLeft: "37%"}}/>
                 <h5 style={{display: "block", marginLeft: "44%", textDecorationLine: "underline", marginTop: "10px"}}>Hover your mouse over me</h5>
             </div>
             <br />
