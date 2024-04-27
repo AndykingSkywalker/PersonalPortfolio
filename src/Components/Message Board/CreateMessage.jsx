@@ -60,9 +60,7 @@ function CreateMessage() {
     return ( 
         <div>
              <div>
-      <h1 style={{ textAlign: "center", justifyContent: "center" }}>
-        Leave a message &nbsp;
-      </h1>
+    <br />
       <form
         style={{
           margin: "auto",
