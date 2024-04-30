@@ -12,7 +12,7 @@ function Home() {
             </div>
             <div>
                 <img className="picOfMe" src={myPicture} alt="picture of me" width="500px" height="500px" style={{borderRadius: "50%", marginLeft: "37%"}}/>
-                <h5 style={{display: "block", marginLeft: "44%", textDecorationLine: "underline", marginTop: "10px"}}>Hover your mouse over me</h5>
+                <h5 style={{display: "block", marginLeft: "43%", textDecorationLine: "underline", marginTop: "10px"}}>Hover your mouse over me</h5>
             </div>
             <br />
             <section>

@@ -48,6 +48,7 @@
 
 .picOfMe:hover {
   animation: my-pic-spin infinite 2s;
+  cursor: pointer;
 }
 
 .imgEnlarger:hover {
