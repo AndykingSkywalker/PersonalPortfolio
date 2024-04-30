@@ -38,16 +38,16 @@
 }
 
 @keyframes my-pic-spin {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
 
 .picOfMe:hover {
-  animation: my-pic-spin infinite 4s;
+  animation: my-pic-spin infinite 2s;
 }
 
 .imgEnlarger:hover {
@@ -94,3 +94,44 @@
   font-size: 14px;
 }
 
+.project-title:hover {
+  color: red;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.projects > div {
+  margin-right: 20px;
+}
+
+.firstGame img {
+  display: flex;
+  width: 100%;
+}
+
+.secondGame img {
+  display: flex;
+  width: 100%;
+}
+
+.thirdGame img {
+  display: flex;
+  width: 100%;
+}
+
+#game-heading {
+  background-color: darkred;
+  color: white;
+  padding: 10px;
+}
+
+#game-text {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+}

@@ -5,6 +5,7 @@ import reactPicture from "../../Images/react-1-logo-png-transparent (1).png";
 import javaPicture from "../../Images/java-svgrepo-com.svg";
 import springPicture from "../../Images/spring-svgrepo-com.svg";
 import sqlPicture from "../../Images/sql-svgrepo-com.svg";
+import GameBlog from "./GameBlog";
 
 function AboutMe() {
     return ( 
@@ -14,10 +15,10 @@ function AboutMe() {
             </h1>
             <br />
             <div style={{textAlign: "center"}}>
-                <p>I am a 28 year old Software Engineer, who has been coding since 2021</p>
+                <p>I am a Software Engineer who has been coding since 2021</p>
                 <p>I currently work for Lloyds Banking Group and most recently have completed a Reskilling Course</p>
             </div>
-            <br />
+        
             <div style={{textAlign: "center"}}>
                 <p>I have learned the following throughout my years of coding:</p>
                 <ul style={{listStyle: "none", fontWeight: "bold"}}>
@@ -68,6 +69,8 @@ function AboutMe() {
                 </div>
 
             </div>
+            <br />
+            <GameBlog/>
         </div>
      );
 }

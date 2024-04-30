@@ -13,6 +13,7 @@ import AboutMe from './Components/About Me/AboutMe';
 import MessageBoard from './Components/Message Board/MessageBoard';
 import EditMessage from './Components/Message Board/EditMessage';
 import PokeSearch from './Components/Pokemon Generator/PokeSearch';
+import Portfolio from './Components/Portfolio/Portfolio';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route element={<MessageBoard />} path="/MessageBoard" />
           <Route element={<EditMessage />} path="/EditMessage/:id" />
           <Route element={<PokeSearch />} path="/PokeSearch" />
+          <Route element={<Portfolio />} path="/Portfolio" />
         </Routes>
       </Router>
     </header>
