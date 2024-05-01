@@ -38,16 +38,16 @@
 }
 
 @keyframes my-pic-spin {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
 
 .picOfMe:hover {
-  animation: my-pic-spin infinite 2s;
+  animation: my-pic-spin 1s infinite linear;
   cursor: pointer;
 }
 
