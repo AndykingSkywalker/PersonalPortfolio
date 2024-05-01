@@ -136,3 +136,22 @@
   padding: 10px;
   font-weight: 400;
 }
+
+.project-container {
+  position: relative;
+}
+
+.project {
+  position: relative;
+}
+
+.project-title {
+  list-style: none;
+}
+
+.accordion-content {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}

@@ -1,7 +1,13 @@
 import CodingTimelapse from "./CodingTimelapse";
 import myPicture from "../../Images/20240227_173433.jpg";
+import spinMeRound from "../Audio/Voicy_Dead Or Alive - You Spin Me Round.mp3";
+import useSound from "use-sound";
 
 function Home() {
+
+    const soundUrl1 = spinMeRound;
+    const [play1,{stop}] = useSound(soundUrl1)
+
     return ( 
         <div>
             <div>
@@ -11,8 +17,8 @@ function Home() {
                 <CodingTimelapse/>
             </div>
             <div>
-                <img className="picOfMe" src={myPicture} alt="picture of me" width="500px" height="500px" style={{borderRadius: "50%", marginLeft: "37%"}}/>
-                <h5 style={{display: "block", marginLeft: "43%", textDecorationLine: "underline", marginTop: "10px"}}>Hover your mouse over me</h5>
+                <img onMouseOver={()=> { play1(); }} onMouseOut={()=> { stop();}} className="picOfMe" src={myPicture} alt="picture of me" width="500px" height="500px" style={{borderRadius: "50%", marginLeft: "59rem"}}/>
+                <h5 style={{display: "block", marginLeft: "67rem", textDecorationLine: "underline", marginTop: "10px"}}>Hover your mouse over me</h5>
             </div>
             <br />
             <section>
